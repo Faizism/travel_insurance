@@ -1,24 +1,34 @@
-<h1> [Your Project Title] </h1>
+<h1> Travel Insurance Classification </h1>
 
 ## 1. Project Overview
-This project analyzes business data to extract insights, improve decision-making, and identify key trends. The primary focus is to **[Your Problem Statements]**(mention business objectives, such as optimizing sales, reducing operational costs, customer segmentation, etc.).
+This project aims to build a machine learning model to classify whether a customer will file a travel insurance claim. By analyzing historical customer data, the project seeks to identify key patterns and indicators associated with insurance claims. This will enable TravelSafe Insurance to optimize their reinsurance strategy and better manage risks.
 
 Key Objectives:
-- Objective 1: (E.g., Analyze customer purchasing patterns)
-- Objective 2: (E.g., Forecast future sales using machine learning)
-- Objective 3: (E.g., Identify high-value customer segments)
+- Objective 1: Understand customer behavior and attributes linked to insurance claims.
+- Objective 2: Develop a predictive model to classify high-risk policies for targeted reinsurance efforts.
 
+Challenges Addressed:
+- High reinsurance costs due to a "one-size-fits-all" approach, leading to inefficiencies and uncovered claims.
+- Identification of high-risk policies to minimize uncovered claim risks and unnecessary reinsurance costs.
+
+Evaluation Metrics:
+- **Business Metric**: Reinsurance Efficiency Ratio (RER)
+- **Model Metric**: ROC-AUC (Receiver Operating Characteristic - Area Under Curve)
+
+Success Criteria:
+- Achieve an ROC-AUC score greater than 0.8, ensuring reliable model performance for operational use.
+  
 ## 2. Data Sources
-- [Dataset 1](link) - Description of dataset (e.g., Sales data for 2020–2023)
-- [Dataset 2](link) – Description of dataset (e.g., Customer demographic information)
-- ...
+- [Dataset 1](https://intip.in/travelinsurancedataset) - Description of dataset (e.g., Historical Travel Insurance Customer)
 
 ## 3. Technologies Used
-- Programming Language: Python (e.g., Pandas, NumPy)
-- Visualization: Matplotlib, Seaborn, Plotly
+Version Control: Git
+- Programming Language: Python (Pandas, NumPy, Scikit-learn)
+- Visualization: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn (Logistic Regression, Decision Trees, etc.)
 - Version Control: Git
-- Others: Jupyter Notebook
-- ...
+- Development Environment: Jupyter Notebook
+
 
 ## 4. Project Structure
 
@@ -49,12 +59,15 @@ Key Objectives:
 ```
 
 ## 5. Summary of Finding
-### 5.1 Business Insight
-In this section, you can present the **actionable insights** derived from the analysis results.
-### 5.2 Actionable Recommendation
-In this section, you can offer **actionable business recommendations** to address the identified problems.
+### 5.1 Business Insights
+- Significant patterns in customer demographics and travel preferences influence insurance claims.
+- Customers traveling to high-risk destinations or purchasing specific insurance products are more likely to file claims.
+
+### 5.2 Actionable Recommendations
+- Implement targeted marketing strategies for high-risk destinations and customer groups.
+- Develop reinsurance strategies focused on high-risk policies to reduce unnecessary costs while ensuring adequate coverage.
 
 ## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+- Name: Muhammad Fa'iz Ismail
+- Email: ismail1.faiz1@gmail.com
+- Linkedin: https://www.linkedin.com/in/m-faiz-ismail/
